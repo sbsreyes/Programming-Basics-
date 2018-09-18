@@ -1,2 +1,2 @@
 # Programming-Basics-
-Basic course og programming unsing JavaScript with platzi
+Basic course of programming unsing JavaScript with platzi
