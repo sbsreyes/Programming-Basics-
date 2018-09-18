@@ -17,4 +17,13 @@ En CSS se almacenan todos los diseños y estilos que tienem las páginas web que
 
 ### JavaScript 
 
-Es el encargado de la interactividad de la página con el usuario en donde los eventos son los causantes de dicha interactividad que se ve reflejada en el navegador. Este es el lenguaje de programación por definición para la web.
+Es el encargado de la interactividad de la página con el usuario en donde los eventos son los causantes de dicha interactividad que se ve reflejada en el navegador. Este es el lenguaje de programación por definición para la web. De igual manera es importante recordar que JavaScript es muy diferente a Java. Java en la actualidad es utilizado por bancos y casas desarrolladoras para crear aplicaciones de escritorio y Js es el lenguaje por definición para la web
+
+## Primeros pasos en el navegador
+
+![Image 2](https://cdn2.iconfinder.com/data/icons/social-media-8/512/Chrome.png)
+
+### Consola
+
+**Enviar mensaje en consola**: Para enviar mensajes en consola se debe escribir el comando alert. (El punto y coma hace referencia a una buena práctica de programación)
+
