@@ -11,11 +11,26 @@ Son los tres lenguajes que están en centro para crear sitios web.
 
 ### HTML
 
-Es un archivo sobre el cual nosotros como programadores trabajamos, dicho lenguaje trabaja conjuntamente con JavaScript y CSS. En HTML tenemos toda la información de nuestro proyecto y la organización de como dicha información es vista por el usuario. Este tambien podría ser un archivo de texto con una extensión diferente (.html). Este es el archivo que realmente interpreta el navegador, es donde se concentran los códigos como HTML o CSS.
+Es un archivo sobre el cual nosotros como programadores trabajamos, dicho lenguaje trabaja conjuntamente con JavaScript y CSS. En HTML tenemos toda la información de nuestro proyecto y la organización de como dicha información es vista por el usuario. Este tambien podría ser un archivo de texto con una extensión diferente (.html). Este es el archivo que realmente interpreta el navegador, es donde se concentran los códigos como HTML o CSS. Todos los archivos de HTML tienen una estructura:
+
+```html
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Curso de programación Basica</title>
+  </head>
+  <body>
+    <h1 class="header">Hola Mamá estoy aprendiendo</h1>
+  </body>
+</html>
+```
+
+Las etiquetas en verde hacen referencia a la estrucura básica de HTML. Recordar que todos los elementos de HTML deben estar incluidos en alguna etiqueta. Estas etiquetas dependen unicamente de la semantica de la página web La etiqueta `<title></title>` Es una de las más importantes porque [Google](https://www.google.com]) segmetna las páginas gracias a la escritura de la etiqueta title de cualquier página web.
 
 ### CSS
 
-En CSS se almacenan todos los diseños y estilos que tienem las páginas web que ya conocemos. Con este lenguaje podemos colocar toda la información atractiva para el usuario.
+En CSS se almacenan todos los diseños y estilos que tienem las páginas web que ya conocemos. Con este lenguaje podemos colocar toda la información atractiva para el usuario. En el siguiente código se agregan algunos estilos escritos en lenguaje CSS (Estilos en cascada).
 
 ### JavaScript 
 
