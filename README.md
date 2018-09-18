@@ -30,9 +30,29 @@ Las etiquetas en verde hacen referencia a la estrucura básica de HTML. Recordar
 
 ### CSS
 
-En CSS se almacenan todos los diseños y estilos que tienem las páginas web que ya conocemos. Con este lenguaje podemos colocar toda la información atractiva para el usuario. En el siguiente código se agregan algunos estilos escritos en lenguaje CSS (Estilos en cascada). Esta etiqueta de estilos debe estar en la parte del `<head></head>` de la parte de la estructura html
+En CSS se almacenan todos los diseños y estilos que tienem las páginas web que ya conocemos. Con este lenguaje podemos colocar toda la información atractiva para el usuario. En el siguiente código se agregan algunos estilos escritos en lenguaje CSS (Estilos en cascada). Esta etiqueta de estilos debe estar en la parte del `<head></head>` de la parte de la estructura html como se muestra en el bloque de código acontinuación:
 
-### JavaScript 
+```html
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Curso de programación Basica</title>
+    <style media="screen">
+      body{
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="header">Hola Mamá estoy aprendiendo</h1>
+  </body>
+</html>
+```
+
+Como se puede observar las etiquetas de estilo son: `<style></style>` 
+
+### JavaScript
 
 Es el encargado de la interactividad de la página con el usuario en donde los eventos son los causantes de dicha interactividad que se ve reflejada en el navegador. Este es el lenguaje de programación por definición para la web. De igual manera es importante recordar que JavaScript es muy diferente a Java. Java en la actualidad es utilizado por bancos y casas desarrolladoras para crear aplicaciones de escritorio y Js es el lenguaje por definición para la web
 
@@ -44,7 +64,6 @@ Es el encargado de la interactividad de la página con el usuario en donde los e
 
 La consola es donde el codigo de Js es leído por el navegador y es donde podemos hacer las pruebas básicas y empezar a jugar con el código.
 
-**Enviar mensaje en consola**: Para enviar mensajes en consola se debe escribir el comando alert. (El punto y coma hace referencia a una buena práctica de programación). 
+**Enviar mensaje en consola**: Para enviar mensajes en consola se debe escribir el comando alert. (El punto y coma hace referencia a una buena práctica de programación).
 
-**Declaración de varibles**: la sintaxis en Js para la declaración de variables a diferencia de VBA esta se realiza con la palabra reservada _var_. Dicha declaración siempre se asigna hacia la derecha. 
-
+**Declaración de varibles**: la sintaxis en Js para la declaración de variables a diferencia de VBA esta se realiza con la palabra reservada _var_. Dicha declaración siempre se asigna hacia la derecha.
