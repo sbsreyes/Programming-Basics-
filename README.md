@@ -50,7 +50,7 @@ En CSS se almacenan todos los diseños y estilos que tienem las páginas web que
 </html>
 ```
 
-Como se puede observar las etiquetas de estilo son: `<style></style>` 
+Como se puede observar las etiquetas de estilo son: `<style></style>` dichos colores se pueden cambiar con los colores en ingés ó su equivalente hexadecimal. 
 
 ### JavaScript
 
