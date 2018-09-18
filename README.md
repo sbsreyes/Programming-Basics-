@@ -30,7 +30,27 @@ Las etiquetas en verde hacen referencia a la estrucura básica de HTML. Recordar
 
 ### CSS
 
-En CSS se almacenan todos los diseños y estilos que tienem las páginas web que ya conocemos. Con este lenguaje podemos colocar toda la información atractiva para el usuario. En el siguiente código se agregan algunos estilos escritos en lenguaje CSS (Estilos en cascada).
+En CSS se almacenan todos los diseños y estilos que tienem las páginas web que ya conocemos. Con este lenguaje podemos colocar toda la información atractiva para el usuario. En el siguiente código se agregan algunos estilos escritos en lenguaje CSS (Estilos en cascada). Esta etiqueta de estilos debe estar en la parte del `<head></head>` de la parte de la estructura html como se muestra en el bloque de código acontinuación:
+
+```html
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Curso de programación Basica</title>
+    <style media="screen">
+      body{
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="header">Hola Mamá estoy aprendiendo</h1>
+  </body>
+</html>
+```
+
+Como se puede observar las etiquetas de estilo son: `<style></style>` 
 
 ### JavaScript 
 
