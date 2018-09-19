@@ -86,5 +86,34 @@ La consola es donde el codigo de Js es leído por el navegador y es donde podemo
 
 ## Programación con JavaScript
 
-Como todo lengiaje de programación JavaScript tiene su propia sintaxis de programación, es [Case Sensitive](https://es.wikipedia.org/wiki/Sensible_a_may%C3%BAsculas_y_min%C3%BAsculas) Lo que significa que el lenguaje diferencia entre mayúsculas y minúsculas
+Como todo lengiaje de programación JavaScript tiene su propia sintaxis de programación, es [Case Sensitive](https://es.wikipedia.org/wiki/Sensible_a_may%C3%BAsculas_y_min%C3%BAsculas) Lo que significa que el lenguaje diferencia entre mayúsculas y minúsculas.
 
+### Mi peso en otro planeta
+
+Para el primer "mini proyecto" se va a calcular el peso de cada estudiante como si vivieramos en marte. el cual se ejecutó de la siguiente manera:
+
+```html
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Como saber tu peso en marte</h1>
+    <script type="text/javascript">
+      var peso = prompt("Ingresa tu peso en la tierra");
+      var pmarte = (peso * 3.7)/9.8;
+
+      alert("Tu peso en marte es: " + pmarte);
+      document.write("No estas pesad@, únicamente estas mal úbicado geograficamente")
+    </script>
+  </body>
+</html>
+```
+
+**Nota**: Para controlar el número de cifras significativas de una variable de punto flotante el código es: `nombrevar.toFixed(Número de cifras)` De esta manera 32.568744584 se escribiría en el navegador como 32.56.
+
+Muchas veces a lo largo del desarrollo del código necesitamos información del usuario, un camino para hacerlo sin la necesidad de utilizar formularios es con `prompt("Texto")`. Esto nos ayuda a solicitar la información del usuario.
+
+Una vez entendio esto se debe aclarar que todos los datos obtenidos por `prompt("texto")` vienen en formato string y si necesitamos volverlos enteros utilizamos el comando `parseInt(prompt("Texto"))`o `parseFloat(prompt("Texto"))`, de esta forma se asegura que si se trabaja con números las operaciones matemáticas sean ejecutadas de la mejor forma posible. 

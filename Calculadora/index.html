@@ -5,6 +5,15 @@
     <title></title>
   </head>
   <body>
+    <h1>Como saber tu peso en marte</h1>
+    <script type="text/javascript">
+      var usuario = prompt("Ingresa tu peso en la tierra");
+      var peso = parseFloat(usuario);
+      var pmarte = (peso * 3.7)/9.8;
 
+      alert("Tu peso en marte es: " + pmarte + " Kilogramos");
+      document.write("<strong>Tu peso en marte es: " + pmarte.toFixed(2) + " Kilogramos</strong>");
+      document.write(" No estas pesad@, únicamente estas mal úbicado geograficamente")
+    </script>
   </body>
 </html>
