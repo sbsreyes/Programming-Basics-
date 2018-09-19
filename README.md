@@ -58,7 +58,19 @@ De igual manera los Indicadores de CSS Cambian respectivamente dependiento del i
 
 Es el encargado de la interactividad de la página con el usuario en donde los eventos son los causantes de dicha interactividad que se ve reflejada en el navegador. Este es el lenguaje de programación por definición para la web. De igual manera es importante recordar que JavaScript es muy diferente a Java. Java en la actualidad es utilizado por bancos y casas desarrolladoras para crear aplicaciones de escritorio y Js es el lenguaje por definición para la web.
 
-Para agregar directamente javaScript dentro del HTML se utiliza la etiqueta `<script></script>` y dentro de ella se escribe todo el código de JavaScript
+Para agregar directamente javaScript dentro del HTML se utiliza la etiqueta `<script></script>` y dentro de ella se escribe todo el código de JavaScript. Es una buena práctica colocar la etiqueta de JavaScript al final del body como se muestra en el bloque de código acontinuación:
+
+```html
+  <body>
+    <h1 class="header">Hola Mamá estoy aprendiendo</h1>
+   <script type="text/javascript">
+    alert("Mensaje especial desde el HTML");
+   </script>
+  </body>
+```
+
+
+Esta práctca se realiza para que la página cargue completamente y una vez esté cargada empieze la interactividad con el Javascript
 
 ## Primeros pasos en el navegador
 
@@ -71,3 +83,8 @@ La consola es donde el codigo de Js es leído por el navegador y es donde podemo
 **Enviar mensaje en consola**: Para enviar mensajes en consola se debe escribir el comando alert. (El punto y coma hace referencia a una buena práctica de programación).
 
 **Declaración de varibles**: la sintaxis en Js para la declaración de variables a diferencia de VBA esta se realiza con la palabra reservada _var_. Dicha declaración siempre se asigna hacia la derecha.
+
+## Programación con JavaScript
+
+Como todo lengiaje de programación JavaScript tiene su propia sintaxis de programación, es [Case Sensitive](https://es.wikipedia.org/wiki/Sensible_a_may%C3%BAsculas_y_min%C3%BAsculas) Lo que significa que el lenguaje diferencia entre mayúsculas y minúsculas
+
