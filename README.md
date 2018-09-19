@@ -56,7 +56,9 @@ De igual manera los Indicadores de CSS Cambian respectivamente dependiento del i
 
 ### JavaScript
 
-Es el encargado de la interactividad de la página con el usuario en donde los eventos son los causantes de dicha interactividad que se ve reflejada en el navegador. Este es el lenguaje de programación por definición para la web. De igual manera es importante recordar que JavaScript es muy diferente a Java. Java en la actualidad es utilizado por bancos y casas desarrolladoras para crear aplicaciones de escritorio y Js es el lenguaje por definición para la web
+Es el encargado de la interactividad de la página con el usuario en donde los eventos son los causantes de dicha interactividad que se ve reflejada en el navegador. Este es el lenguaje de programación por definición para la web. De igual manera es importante recordar que JavaScript es muy diferente a Java. Java en la actualidad es utilizado por bancos y casas desarrolladoras para crear aplicaciones de escritorio y Js es el lenguaje por definición para la web.
+
+Para agregar directamente javaScript dentro del HTML se utiliza la etiqueta `<script></script>` y dentro de ella se escribe todo el código de JavaScript
 
 ## Primeros pasos en el navegador
 
