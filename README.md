@@ -114,6 +114,6 @@ Para el primer "mini proyecto" se va a calcular el peso de cada estudiante como 
 
 **Nota**: Para controlar el número de cifras significativas de una variable de punto flotante el código es: `nombrevar.toFixed(Número de cifras)` De esta manera 32.568744584 se escribiría en el navegador como 32.56.
 
-Muchas veces a lo largo del desarrollo del código necesitamos información del usuario, un camino para hacerlo sin la necesidad de utilizar formularios es con `prompt("Texto")`. Esto nos ayuda a solicitar la información del usuario.
+Muchas veces a lo largo del desarrollo del código necesitamos información del usuario, un camino para hacerlo sin la necesidad de utilizar formularios es con `prompt("Texto")`. Esto nos ayuda a solicitar la información escrita por el usuario.
 
-Una vez entendio esto se debe aclarar que todos los datos obtenidos por `prompt("texto")` vienen en formato string y si necesitamos volverlos enteros utilizamos el comando `parseInt(prompt("Texto"))`o `parseFloat(prompt("Texto"))`, de esta forma se asegura que si se trabaja con números las operaciones matemáticas sean ejecutadas de la mejor forma posible. 
+Una vez entendio esto se debe aclarar que todos los datos obtenidos por `prompt("texto")` vienen en formato string y si necesitamos volverlos enteros utilizamos el comando `parseInt(prompt("Texto"))`o `parseFloat(prompt("Texto"))`, de esta forma se asegura que si se trabaja con números las operaciones matemáticas sean ejecutadas de la mejor forma posible.
